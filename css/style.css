@@ -114,6 +114,7 @@ img {
 .date {
   color: #707070;
   margin-top: 72px;
+  padding-bottom: 16px;
 }
 .section4 h4,
 .content,
@@ -200,6 +201,13 @@ img {
   border-top: 1px solid #ffffff;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.tel2 {
+  display: flex;
+}
+.phone {
+  width: 36px;
+  margin-right: 16px;
 }
 
 /* 常用class */
@@ -438,5 +446,9 @@ img {
   .section-b a {
     padding-top: 8px;
     display: block;
+  }
+  .phone {
+    width: 18px;
+    margin-right: 11px;
   }
 }
